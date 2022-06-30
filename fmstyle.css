@@ -1,0 +1,40 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;  
+}    
+input[type="email"]
+{
+    width: 200px;
+}
+input[type="text"]
+{
+    width: 150px;    
+}    
+input[type="submit"]
+{
+    width: 77px;
+    height: 27px;    
+}    
+form
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border: 3px solid black;
+    width: 400px;
+    margin: 20px auto;    
+}    
+.name
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mail
+{
+  font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.btn-submit:hover
+{
+   color: blue;
+    opacity: 0.8;
+}

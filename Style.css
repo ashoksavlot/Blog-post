@@ -1,0 +1,131 @@
+body 
+{
+	font-family: 'Times New Roman', Times, serif;
+	padding: 20px;
+	background: #f1f1f1;
+  background-image: url("");
+  background-color: #cccccc;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav{
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.form-field{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.btn-submit{
+  background-color: lightseagreen;
+}
+.rightcolumn .card  a{
+  line-height: 25px !important;
+}
+
+.stories{
+  padding-left: 15px;
+}
+
+.stories li{
+  padding-bottom: 15px;
+}
+
+.header
+{
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	background: #343d46;
+  margin-top: 30px;
+  color: white !important;
+}
+
+.leftcolumn
+{
+	float: left;
+	width: 70%;
+}
+.rightcolumn
+{
+	float: right;
+	width: 25%;
+	padding: 10px;
+}
+.card
+{
+	background-color: lightslategray;
+	padding: 20px;
+	margin-top: 20px;
+}
+.row:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  padding: 20px;
+  background: #ddd;
+  margin-top: 20px;
+}
+ a:hover {
+  color: blue;
+}
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px auto;
+  
+}
+.login a{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0;
+ padding: 10px 10px;
+ font-weight: 400;
+ cursor: pointer;
+}
+.sub
+{
+  font-weight: 600;
+  cursor: pointer;
+}
+/* .login p{
+  margin: 0;
+} */
+.top-button
+{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: auto)
+ {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
